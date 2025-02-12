@@ -8,7 +8,7 @@
 
 - **Nome:** Sara Catarina Loureiro da Silva
 - **Número de Aluno:** A104608
-  ![Sara Silva]\(../sarasilva.jpg)
+![Sara Silva](../sarasilva.jpg)
 
 ## 📖 Resumo
 
