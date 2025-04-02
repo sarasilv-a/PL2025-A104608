@@ -22,13 +22,13 @@ O programa é capaz de:
 ## 📊 Funcionalidades
 
 ### 📌 1. Analisador Léxico com PLY
-O ficheiro `alt_lex.py` define os seguintes tokens:
+O ficheiro `lexico.py` define os seguintes tokens:
 
 `NUMBER`: Números inteiros
 
 `PLUS`, `MINUS`, `TIMES`, `DIVIDE`: Operadores matemáticos básicos
 
-🔹 Exemplo de tokenização:
+**->Exemplo de tokenização:**
 
 ``` plaintext
 Input: 2 * 4 + 1
@@ -43,7 +43,7 @@ LexToken(NUMBER,1,1,8)
 
 ### 📌 2. Analisador Sintático com Precedência
 
-O ficheiro `alt_sin.py` define uma gramática que:
+O ficheiro `sintatico.py` define uma gramática que:
 
 - Respeita a precedência de multiplicação/divisão sobre adição/subtração
 
@@ -75,7 +75,7 @@ Expressão inválida: 2 + *
 1. Executar o analisador sintático:
 
 ``` bash
-python alt_sin.py
+python sintatico.py
 ```
 
 2. Introduzir expressões matemáticas diretamente no terminal:
@@ -86,6 +86,6 @@ Resultado da expressão: 20
 ```
 
 ## 📎 Ficheiros
-- `alt_lex.py` - Analisador léxico com PLY.
-- `alt_sin.py` - Analisador sintático com gramática e avaliação.
+- `lexico.py` - Analisador léxico com PLY.
+- `sintatico.py` - Analisador sintático com gramática e avaliação.
 - `README.md` - Documentação do trabalho.
